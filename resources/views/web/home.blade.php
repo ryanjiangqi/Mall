@@ -149,19 +149,7 @@
 <script src="./js/jquery.tmpl.js"></script>
 <script type="text/javascript">
     var dataForWeixin = {
-        debug: false,
-        appId: "wx53d560f3993b5087",
-        timestamp: "1547100803",
-        nonceStr: "57a0816bd45c4aec9091fb720c3f2ed7",
-        signature: "83d53f81d3942e5b81b581a0b2c840a91b993c44",
-        jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo', 'getLocation', 'scanQRCode'],
 
-        img: "http://file.uuhooo.com/File/20171122/T001_9a717086-db02-4a16-b9cc-9df514e388a4.jpg",
-        title: "宠儿母婴用品百货",
-        desc: "【宠儿母婴用品百货】欢迎您~",
-        getlocation: false,
-        shareUrl: "http://center.uuhooo.com/PageSite/NewHome?shopweixinid=gh_88b3f2b378ad",
-        url: "/SettingAPI/SaveUserLocation?weixinid=oF6TCjgFlTmhIKw9BfvectCBN_Js&userId=5435e368-2219-475a-9f9d-68268842868c"
     };
     var common = {
         UserID: "5435e368-2219-475a-9f9d-68268842868c",

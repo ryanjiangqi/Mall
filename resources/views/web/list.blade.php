@@ -658,40 +658,7 @@
     </script>
     <script src="./js/CategoryList.js" type="text/javascript"></script>
     @include('web.layouts.footer')
-    <script>
-        $(function () {
-            RefreshShoppingCar();
-            //菜单选中状态
-            var menuList = $(".footer_nav a");
-            var currpathname = window.location.pathname.toLowerCase();
-            menuList.each(function () {
-                var subhref = $(this).attr("data-subhref").toLowerCase();
-                if (subhref.indexOf(currpathname) > -1)
-                {
-                    $(this).addClass("active");
-                    return false;
-                }
-            });
 
-        })
-
-        function RefreshShoppingCar()
-        {
-            //获取购物车数量
-            $.ajax({
-                url: "/ShoppingCartAPI/GetShoppingCarCount?userid=5435e368-2219-475a-9f9d-68268842868c" + "&time=" + (new Date()).getTime(),
-                type: "get",
-                dataType: "json",
-                contentType: "application/json; charset=utf8",
-                success: function (data) {
-                    var acount = parseInt(data);
-                    if (acount > 0) {
-                        $(".footer_nav .icon_footer_cart").html("<b>" + acount + "</b>");
-                    }
-                }
-            })
-        }
-    </script>
 
 
 </div>
