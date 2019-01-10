@@ -150,6 +150,7 @@
 <script type="text/javascript">
     var dataForWeixin = {
 
+        
     };
     var common = {
         UserID: "5435e368-2219-475a-9f9d-68268842868c",
