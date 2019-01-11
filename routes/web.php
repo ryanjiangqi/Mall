@@ -5,3 +5,7 @@ Route::get('/', function () {
 Route::get('/list', function () {
     return view('web.list');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
