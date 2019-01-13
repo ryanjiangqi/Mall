@@ -8,15 +8,15 @@
            data-subhref="/Item/CategoryList">
             <i class="icon_footer_cat">
             </i>商品分类</a>
-        <a href="http://m.uuhooo.com/integralmall/integralexchange?shopweixinid=gh_88b3f2b378ad"
+        <a href="/"
            data-subhref="http://m.uuhooo.com/integralmall/integralexchange?shopweixinid=gh_88b3f2b378ad">
             <i class="icon_footer_brand">
             </i>积分商城</a>
-        <a href="http://member.uuhooo.com/Member/MemberSign?shopweixinid=gh_88b3f2b378ad"
+        <a href="/"
            data-subhref="http://member.uuhooo.com/Member/MemberSign?shopweixinid=gh_88b3f2b378ad">
             <i class="icon_footer_orders">
             </i>签到赠送</a>
-        <a href="http://center.uuhooo.com/Setting/Index?WeiXinID=oF6TCjgFlTmhIKw9BfvectCBN_Js&amp;ShopWeiXinID=gh_88b3f2b378ad"
+        <a href="/"
            data-subhref="/Setting/Index">
             <i class="icon_footer_personal">
                 <em></em>
