@@ -16,7 +16,7 @@
            data-subhref="http://member.uuhooo.com/Member/MemberSign?shopweixinid=gh_88b3f2b378ad">
             <i class="icon_footer_orders">
             </i>签到赠送</a>
-        <a href="/"
+        <a href="/person"
            data-subhref="/Setting/Index">
             <i class="icon_footer_personal">
                 <em></em>
