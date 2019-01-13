@@ -84,19 +84,7 @@
         </div>
         <div class="tabs-content">
             <div class="tab active" id="tab1">
-                <p><img src="./images/T001_2619495e-62ac-4e4e-8d3d-25508435a191.jpg" alt=""><img
-                            src="./images/T001_81b045b4-9ceb-4eca-8940-dfc94e1d8077.jpg" alt=""><img
-                            src="./images/T001_8cf98720-833d-4ebb-bd63-e6dea1506aed.jpg" alt=""><img
-                            src="./images/T001_67d40257-9b56-47bb-8b0b-cf421086fc72.jpg" alt=""><img
-                            src="./images/T001_5a036cd1-f7d1-453b-a4db-c0b77e36000b.jpg" alt=""><img
-                            src="./images/T001_cd4ac03b-48d8-42eb-a8f4-6e539b7229d4.jpg" alt=""><img
-                            src="./images/T001_cefd120f-5979-49e6-9042-957104783933.jpg" alt=""><img
-                            src="./images/T001_2a76e688-4698-466a-83cd-b7755af53290.jpg" alt=""><img
-                            src="./images/T001_e8d41d63-a653-42e2-81fd-c4fb8f4c4aba.jpg" alt=""><img
-                            src="./images/T001_98dc500b-ba67-4c03-bc42-500bff2f5c4c.jpg" alt=""><img
-                            src="./images/T001_7f756ef3-13dd-4802-b389-1abefe3d8bab.jpg" alt=""><img
-                            src="./images/T001_19c86e4e-44fb-4be4-9406-317df89ce07c.jpg" alt=""><img
-                            src="./images/T001_04a6065c-922c-4d80-8153-38ceb2e2d001.jpg" alt=""></p>
+                <p><img src="./images/T001_2619495e-62ac-4e4e-8d3d-25508435a191.jpg" alt="">
             </div>
 
             <div class="tab" id="tab3">
