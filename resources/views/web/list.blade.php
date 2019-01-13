@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <!-- saved from url=(0109)http://center.uuhooo.com/Item/CategoryList?WeiXinID=oF6TCjgFlTmhIKw9BfvectCBN_Js&ShopWeiXinID=gh_88b3f2b378ad -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
     <meta content="telephone=no" name="format-detection">
@@ -14,8 +16,6 @@
 </head>
 <body ontouchstart="" style="">
 <div class="container">
-
-
 
 
     <div class="header">
@@ -37,16 +37,14 @@
             <a href="javascript:;" class="" data-id="103839"><span>尿裤纸品</span></a>
             <a href="javascript:;" class="" data-id="103855"><span>奶瓶奶嘴</span></a>
         </div>
-
         <div class="category-list" id="one104542" style="">
             <div class="item">
-
                 <a href="javascript:##;">
                     <h4>全部靓妈专区 </h4>
                     <span class="icon-arrow-right"></span></a>
                 <ul>
                     <li>
-                        <a href="http://center.uuhooo.com/Item/Index?shopweixinId=gh_88b3f2b378ad&amp;weixinId=oF6TCjgFlTmhIKw9BfvectCBN_Js&amp;categoryId=104542&amp;r=1803">
+                        <a href="/detail">
                             <img src="./images/T001_a99d7d38-03f1-4eb7-a5fb-cacd37c37357.jpg.310-310.jpg" alt="靓妈专区">
                             <p>全部靓妈专区</p>
                         </a>
@@ -478,7 +476,8 @@
                     </li>
                     <li>
                         <a href="http://center.uuhooo.com/Item/Index?shopweixinId=gh_88b3f2b378ad&amp;weixinId=oF6TCjgFlTmhIKw9BfvectCBN_Js&amp;categoryId=103842&amp;r=1803">
-                            <img src="./images/T001_e54edfbd-5fd9-4184-a351-3b72d19caae5.jpg.310-310.jpg" alt="妈咪宝贝Moonny">
+                            <img src="./images/T001_e54edfbd-5fd9-4184-a351-3b72d19caae5.jpg.310-310.jpg"
+                                 alt="妈咪宝贝Moonny">
                             <p>妈咪宝贝Moonny</p>
                         </a>
                     </li>
@@ -660,10 +659,8 @@
     @include('web.layouts.footer')
 
 
-
 </div>
 
 
-
-
-</body></html>
+</body>
+</html>
