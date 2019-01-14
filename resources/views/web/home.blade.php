@@ -11,6 +11,50 @@
     <link rel="stylesheet" href="./css/preview.min.css">
     <script src="./js/jquery-1.10.1.min.js"></script>
 </head>
+<style>
+    .categories {
+        padding: 10px 0 0px 0;
+    }
+
+    .categories .content a .icon-categories {
+        background: none;
+    }
+
+    .article {
+        width: 100%;
+        color: #333;
+        font-size: 14px;
+    }
+
+    .article li {
+        width: 100%;
+        float: left;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+        text-indent: 10px;
+    }
+
+    .article_left {
+        width: 60%;
+        float: left;
+        margin-top: 12px;
+    }
+    .article_left_span{
+        float: left;
+        width: 100%;
+    }
+
+    .article_right {
+        width: 35%;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .article_right img {
+        width: 70px;
+        float: right;
+    }
+</style>
 <body style="background: rgb(255, 255, 255);">
 <div class="page">
     <div class="header"></div>
@@ -43,7 +87,7 @@
                         class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
         </div>
         <div class="categories" id="31905107-e65e-389f-eaf9-707fa287948f">
-            <div class="content radius" style="background-color:#FFFFFF">
+            <div class="content radius" style="background-color:#FFFFFF;">
                 <a href="http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&amp;categoryId=103788">
                     <i class="icon-categories" style="width: 163px; height: 163px; margin: 0px auto;">
                         <img src="./images/T001_f1ce3c08-4c5f-45f1-9a2f-12e4ee815147.jpg"></i><span>奶粉</span>
@@ -79,93 +123,97 @@
 
             </div>
         </div>
-        <div class="scroll-notice" style="background-color:#FFF8BA">
-            <div class="icon-notice" style="display:block">
-                <img src="./images/icon-notice.png" alt="">
+
+
+        <div class="categories" id="31905107-e65e-389f-eaf9-707fa287948f" style="padding-bottom:10px;">
+            <div class="caption-block center" style="width: 100%;">
+                <div class="caption">热门头条</div>
             </div>
-            <marquee direction="left" scrolldelay="0" scrollamount="4">
-                <a href="javascript:;" style="color:#2617FF">全场满88元免费送货上门</a>
-            </marquee>
+            <div class="content radius" style="padding:0px;text-align: center;">
+                <ul class="article">
+                    <li>
+                        <div class="article_left">
+                            <span style="float: left;width: 100%;">asdfasdfsadf打法撒打算</span>
+                            <span style="float: left;width: 100%;">asdfasdf</span>
+                        </div>
+                        <div class="article_right"><img src="./images/T001_ccae4101-2b3f-42b6-99c6-66b776c21696.jpg">
+                        </div>
+                    </li>
+                    <li style="border-bottom: none;">
+                        <div class="article_left">
+                            <span class="article_left_span">asdfasdfsadf打法撒打算</span>
+                            <span class="article_left_span">asdfasdf</span>
+                        </div>
+                        <div class="article_right"><img src="./images/T001_ccae4101-2b3f-42b6-99c6-66b776c21696.jpg">
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
         </div>
         <div class="advertise-list">
-            <div class="caption-block center" style="">
-                <div class="caption">积分兑换专区</div>
-            </div>
-            <div class="content  small">
-                <a href="http://m.uuhooo.com/integralmall/integralexchange?shopweixinid=gh_88b3f2b378ad"
-                   style="padding-top: 2px;padding-right: 2px;padding-bottom: 2px;padding-left: 0px;">
-                    <img src="./images/T001_0346eed2-de42-4fd4-ab49-518280e501f2.jpg" width="100%">
-                </a>
-                <a href="http://activity.uuhooo.com/Activity/CouponList?WeiXinID=oF6TCjilEzFORpEy0sQngR8NZHPU&amp;ShopWeiXinID=gh_88b3f2b378ad"
-                   style="padding-top: 2px;padding-right:0px;padding-bottom: 2px;padding-left: 2px;">
-                    <img src="./images/T001_a9c92b63-a414-4b55-9045-a84a3bd4cf62.jpg" width="100%">
-                </a>
-            </div>
-        </div>
-        <div class="goods-list" id="6771eeba-c71e-7a1b-5dc2-c7d99a7f5e5c">
-            <div class="caption-block center" style="">
-                <div class="caption">热销商品</div>
-            </div>
-            <div class="content small">
-                <div class="item">
-                    <div class="item-block">
-                        <div class="item-media"><a
-                                    href="#">
-                                <img class="lazy js-itemlazy" src="./images/none.jpg.210-210.jpg"
-                                     data-original="http://file.uuhooo.com/File/20180709/T001_a69680b3-bb64-4a82-8394-260d6c5f79fe.jpg.310-310.jpg"
-                                     alt=""></a></div>
-                        <div class="item-inner"><a
-                                    href="#"
-                                    class="name"> <span>2018美素佳儿幼儿配方奶粉3段</span> </a>
-                            <div class="price-stocks">
-                                <div class="price"><i>￥</i><b>180</b></div>
+            <div class="goods-list" id="6771eeba-c71e-7a1b-5dc2-c7d99a7f5e5c">
+                <div class="caption-block center" style="">
+                    <div class="caption">热销商品</div>
+                </div>
+                <div class="content small">
+                    <div class="item">
+                        <div class="item-block">
+                            <div class="item-media"><a
+                                        href="#">
+                                    <img class="lazy js-itemlazy" src="./images/none.jpg.210-210.jpg"
+                                         data-original="http://file.uuhooo.com/File/20180709/T001_a69680b3-bb64-4a82-8394-260d6c5f79fe.jpg.310-310.jpg"
+                                         alt=""></a></div>
+                            <div class="item-inner"><a
+                                        href="#"
+                                        class="name"> <span>2018美素佳儿幼儿配方奶粉3段</span> </a>
+                                <div class="price-stocks">
+                                    <div class="price"><i>￥</i><b>180</b></div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="item">
-                    <div class="item-block">
-                        <div class="item-media"><a
-                                    href="#">
-                                <img class="lazy js-itemlazy" src="./images/none.jpg.210-210.jpg"
-                                     data-original="http://file.uuhooo.com/File/20180709/T001_a69680b3-bb64-4a82-8394-260d6c5f79fe.jpg.310-310.jpg"
-                                     alt=""></a></div>
-                        <div class="item-inner"><a
-                                    href="#"
-                                    class="name"> <span>2018美素佳儿幼儿配方奶粉3段</span> </a>
-                            <div class="price-stocks">
-                                <div class="price"><i>￥</i><b>180</b></div>
+                    <div class="item">
+                        <div class="item-block">
+                            <div class="item-media"><a
+                                        href="#">
+                                    <img class="lazy js-itemlazy" src="./images/none.jpg.210-210.jpg"
+                                         data-original="http://file.uuhooo.com/File/20180709/T001_a69680b3-bb64-4a82-8394-260d6c5f79fe.jpg.310-310.jpg"
+                                         alt=""></a></div>
+                            <div class="item-inner"><a
+                                        href="#"
+                                        class="name"> <span>2018美素佳儿幼儿配方奶粉3段</span> </a>
+                                <div class="price-stocks">
+                                    <div class="price"><i>￥</i><b>180</b></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        @include('web.layouts.footer')
     </div>
-    @include('web.layouts.footer')
-</div>
-<script src="./js/swiper-3.4.2.min.js"></script>
-<script src="./js/jquery.lazyload.js"></script>
-<script src="./js/jquery.tmpl.js"></script>
-<script type="text/javascript">
-    var dataForWeixin = {
+    <script src="./js/swiper-3.4.2.min.js"></script>
+    <script src="./js/jquery.lazyload.js"></script>
+    <script src="./js/jquery.tmpl.js"></script>
+    <script type="text/javascript">
+        var dataForWeixin = {};
+        var common = {
+            UserID: "5435e368-2219-475a-9f9d-68268842868c",
+            ShopWeiXinID: "gh_88b3f2b378ad",
+            WeiXinID: "oF6TCjgFlTmhIKw9BfvectCBN_Js",
+            companyid: '2088',
+            custompageColumnList: $.parseJSON('[{"CustompageColumnId":"d794eb52-8575-5e55-20dc-a68be7a3aa1f","StoreId":263149,"CustompageId":143,"ColumnType":3,"ColumnTitle":"轮播图片","SortIndex":1,"JsonData":{"IsAutoPlay":1,"AutoPlayTime":3,"datalist":[{"slideTitle":"全家人的肠道卫士","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=103811","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_792a3f67-8b29-4cd9-b9a5-91a395249eb7.jpg","SerialNo":0},{"slideTitle":"可诺贝儿羊奶粉","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=103802","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_51410570-6a8e-4805-922c-5a399b9b3c86.jpg","SerialNo":1},{"slideTitle":"可唯安益生菌奶粉","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=119250","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_8aca5db9-750c-4c2f-81b4-9ee482bb7c5b.jpg","SerialNo":2}]},"ColumnContent":null},{"CustompageColumnId":"31905107-e65e-389f-eaf9-707fa287948f","StoreId":263149,"CustompageId":143,"ColumnType":4,"ColumnTitle":"商品分类","SortIndex":2,"JsonData":{"DisplayMode":1,"spacing":10,"GetCateList":null},"ColumnContent":null}]')
 
-    };
-    var common = {
-        UserID: "5435e368-2219-475a-9f9d-68268842868c",
-        ShopWeiXinID: "gh_88b3f2b378ad",
-        WeiXinID: "oF6TCjgFlTmhIKw9BfvectCBN_Js",
-        companyid: '2088',
-        custompageColumnList: $.parseJSON('[{"CustompageColumnId":"d794eb52-8575-5e55-20dc-a68be7a3aa1f","StoreId":263149,"CustompageId":143,"ColumnType":3,"ColumnTitle":"轮播图片","SortIndex":1,"JsonData":{"IsAutoPlay":1,"AutoPlayTime":3,"datalist":[{"slideTitle":"全家人的肠道卫士","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=103811","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_792a3f67-8b29-4cd9-b9a5-91a395249eb7.jpg","SerialNo":0},{"slideTitle":"可诺贝儿羊奶粉","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=103802","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_51410570-6a8e-4805-922c-5a399b9b3c86.jpg","SerialNo":1},{"slideTitle":"可唯安益生菌奶粉","slideUrl":"http://center.uuhooo.com/Item/Index?shopweixinid=gh_88b3f2b378ad&categoryId=119250","slideImgUrl":"http://file.uuhooo.com/File/20181010/T001_8aca5db9-750c-4c2f-81b4-9ee482bb7c5b.jpg","SerialNo":2}]},"ColumnContent":null},{"CustompageColumnId":"31905107-e65e-389f-eaf9-707fa287948f","StoreId":263149,"CustompageId":143,"ColumnType":4,"ColumnTitle":"商品分类","SortIndex":2,"JsonData":{"DisplayMode":1,"spacing":10,"GetCateList":null},"ColumnContent":null}]')
+        };
 
-    };
+    </script>
 
-</script>
-
-<script src="./js/jweixin-1.0.0.js" type="text/javascript"></script>
-<script src="./js/sharecommon.js" type="text/javascript"></script>
-<script src="./js/NewHome.js"></script>
+    <script src="./js/jweixin-1.0.0.js" type="text/javascript"></script>
+    <script src="./js/sharecommon.js" type="text/javascript"></script>
+    <script src="./js/NewHome.js"></script>
 
 
 </body>
